@@ -1,0 +1,15 @@
+<!--pages/register/step1/step1.wxml-->
+<view class='container'>
+  <view class='form-item flex'>
+    <input class='flex1' type='number' placeholder="手机号" value='{{mobile}}' bindinput='bindInput' data-type='mobile' />
+    <icon class='clear-icon' type="clear" size='20' bindtap='handleClear' data-type='mobile' />
+  </view>
+  <view class='form-item flex'>
+    <input class='flex1' type='number' placeholder="验证码" value='{{code}}' bindinput='bindInput' data-type='code' />
+    <text class='code-btn' bindtap='handleGetCode'>{{codeTxt}}</text>
+  </view>
+  
+  <view class='group-btn'>
+    <button class='flex1 btn'open-type="getUserInfo" lang="zh_CN" bindgetuserinfo='handleNext'>登录</button>
+  </view>
+</view>

@@ -1,0 +1,51 @@
+<!--pages/my/my.wxml-->
+<view class='header flex' bindtap='jumpPage' data-page='./personal/personal'>
+  <view class='user-avatar-wrap'>
+    <open-data class="user-avatar" type="userAvatarUrl"></open-data>
+  </view>
+  <view class='flex1'>
+    <text>{{useinfo.nick}}</text>
+    <view style='line-height: 50rpx;'>普通用户</view>
+  </view>
+  <image class='icon-more' src='../../img/icon-more.png'></image>
+</view>
+<!-- <view class='code-entry' bindtap='jumpPage' data-page='./qrcode/qrcode'>微信卡包二维码入口</view> -->
+<view class='list'>
+  <view class='list-item flex' bindtap='cartechfinLoan'>
+    <image class='icon-main' src='../../img/icon-cyd.png'></image>
+    <text class='flex1'>营销二维码</text>
+    <image class='icon-more' src='../../img/icon-more.png'></image>
+  </view>
+    <view style='height: 20rpx;'></view>
+  <view class='list-item flex' bindtap='jumpPage' data-page='./bill/bill'>
+    <image class='icon-main' src='../../img/icon-cyd.png'></image>
+    <text class='flex1'>菜单1</text>
+    <image class='icon-more' src='../../img/icon-more.png'></image>
+  </view>
+  <view class='list-item flex' bindtap='jumpPage' data-page='./store/store'>
+    <image class='icon-main' src='../../img/icon-cyd.png'></image>
+    <text class='flex1'>菜单2</text>
+    <image class='icon-more' src='../../img/icon-more.png'></image>
+  </view>
+  <view class='list-item flex' bindtap='jumpPage' data-page='./store/store'>
+    <image class='icon-main' src='../../img/icon-cyd.png'></image>
+    <text class='flex1'>菜单3</text>
+    <image class='icon-more' src='../../img/icon-more.png'></image>
+  </view>
+  <view class='list-item flex' bindtap='jumpPage' data-page='./store/store'>
+    <image class='icon-main' src='../../img/icon-cyd.png'></image>
+    <text class='flex1'>菜单4</text>
+    <image class='icon-more' src='../../img/icon-more.png'></image>
+  </view>
+  <view class='list-item flex' bindtap='jumpPage' data-page='./store/store'>
+    <image class='icon-main' src='../../img/icon-cyd.png'></image>
+    <text class='flex1'>菜单5</text>
+    <image class='icon-more' src='../../img/icon-more.png'></image>
+  </view>
+  <view class='list-item flex' bindtap='jumpPage' data-page='./store/store'>
+    <image class='icon-main' src='../../img/icon-cyd.png'></image>
+    <text class='flex1'>菜单6</text>
+    <image class='icon-more' src='../../img/icon-more.png'></image>
+  </view>
+  <button class='btn' bindtap='jumpPage' data-page='../register/step1/step1'>退出登录</button>
+</view>

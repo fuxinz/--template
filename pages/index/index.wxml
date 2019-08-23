@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class='container'>
+  <button class='btn btn1' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo='getUserInfo' data-action='phone'>手机号登录</button>
+  <button class='btn btn2' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo='getUserInfo' data-action='wx'>微信登录</button>
+</view>
